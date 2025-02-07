@@ -120,9 +120,9 @@ public class ejercicio1 extends javax.swing.JPanel {
         double edad= Integer.parseInt(txtEdad.getText());
         // Este hace referenca al nombre
         String nom= txtNombre.getText() ;
-        txtARes.setText("El correo es: "+correo+"/n");
-        txtARes.append("La edad es: "+edad+"/n");
-        txtARes.append("El nombre es:" +nom);
+        txtA.setText("El correo es: "+correo"\n");
+        txtA.append("La edad es: "+edad+"\n");
+        txtA.append("El nombre es:" +nom);
     }//GEN-LAST:event_btnProcesarActionPerformed
 
     
