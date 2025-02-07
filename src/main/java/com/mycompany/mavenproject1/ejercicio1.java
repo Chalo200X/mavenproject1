@@ -116,7 +116,13 @@ public class ejercicio1 extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnProcesarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcesarActionPerformed
-        // TODO add your handling code here:
+        String correo= txtCorreo.getText();
+        double edad= Integer.parseInt(txtEdad.getText());
+        // Este hace referenca al nombre
+        String nom= txtNombre.getText() ;
+        txtARes.setText("El correo es: "+correo+"/n");
+        txtARes.append("La edad es: "+edad+"/n");
+        txtARes.append("El nombre es:" +nom);
     }//GEN-LAST:event_btnProcesarActionPerformed
 
     
